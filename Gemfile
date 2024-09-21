@@ -24,3 +24,5 @@ group :development, :test do
 end
 
 
+
+gem "active_record_compose", "~> 0.4.1"
