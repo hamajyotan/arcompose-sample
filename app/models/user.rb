@@ -6,8 +6,12 @@ class User < ActiveRecordCompose::Model
     models << account << profile
   end
 
+  delegate :id, :persisted?, to: :account
+
   delegate_attribute :email, to: :account
   delegate_attribute :name, :age, to: :profile
+
+  def to_model = self
 
   private
 
