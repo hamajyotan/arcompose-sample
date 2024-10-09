@@ -25,4 +25,4 @@ end
 
 
 
-gem "active_record_compose", "~> 0.4.1"
+gem "active_record_compose", "~> 0.5.0"

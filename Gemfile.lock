@@ -45,7 +45,7 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    active_record_compose (0.4.1)
+    active_record_compose (0.5.0)
       activerecord (>= 6.1)
     activejob (7.2.1)
       activesupport (= 7.2.1)
@@ -262,7 +262,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  active_record_compose (~> 0.4.1)
+  active_record_compose (~> 0.5.0)
   brakeman
   debug
   puma (>= 5.0)
